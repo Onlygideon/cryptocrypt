@@ -33,14 +33,15 @@ const Homepage = () => {
 
         <br />
          <div className="home-heading-container">
-            <Title level={2} className="home-title">Market Trend: Top Cryptocurrencies</Title>
+            <Title level={2} className="home-title">Market Trend:<br/>
+            Top Cryptocurrencies</Title>
             <Title level={3} className="show-more"><Link to="/cryptocurrencies" style={{color: 'slateblue'}}>Show More</Link></Title>
          </div>
          <Cryptocurrencies simplified/>
 
         <br />
          <div className="home-heading-container">
-            <Title level={2} className="home-title">Latest Cryptocurrency News</Title>
+            <Title level={2} className="home-title">Daily News</Title>
             <Title level={3} className="show-more"><Link to="/news" style={{color: 'slateblue'}}>Show More</Link></Title>
          </div>
          <News simplified/>
